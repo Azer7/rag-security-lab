@@ -50,7 +50,7 @@ I read every answer in `results.csv` and found no mislabeled rows.
 - So I would consider this more of a data-access issue than a prompt-injection issue. The secret document was already available through retrieval, and the original prompt didn't tell the model that the information was confidential.
 - Adding the hardened prompt prevented both of the successful leaks, while normal questions still worked.
 - The delimiters didn't have much effect because the injection attacks were already failing.
-The output filter caught the secret, but I wouldn't use that result alone to say the system is secure. The filter was specifically designed to block the exact password strings used in the tests. It stopped the secret from reaching the user, but the model had already generated it.
+- The output filter caught the secret, but I wouldn't use that result alone to say the system is secure. The filter was specifically designed to block the exact password strings used in the tests. It stopped the secret from reaching the user, but the model had already generated it.
 
 ## Limitations
 - Small test set (10 attacks, 4 normal questions) and a single run per test. Results can vary between runs, so differences of one or two attacks should not be over-interpreted.
