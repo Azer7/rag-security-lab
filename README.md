@@ -63,6 +63,6 @@ The output filter caught the secret, but I wouldn't use that result alone to say
 - All credentials are fake and planted for testing.
 
 ## What I would do next
--I’d add 20–30 more difficult injection attacks and run them a few times to see if the model reacts the same way each time.
--I’d also test some other models, including a smaller one, to see if they have the same problems.
--Most importantly, I’d add access controls so confidential documents aren’t available to normal users through the retrieval system. Preventing the documents from being retrieved is a much better solution than relying only on the model to protect them.
+- I’d add 20–30 more difficult injection attacks and run them a few times to see if the model reacts the same way each time.
+- I’d also test some other models, including a smaller one, to see if they have the same problems.
+- Most importantly, I’d add access controls so confidential documents aren’t available to normal users through the retrieval system. Preventing the documents from being retrieved is a much better solution than relying only on the model to protect them.
