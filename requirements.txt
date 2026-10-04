@@ -1,0 +1,3 @@
+langchain-anthropic
+scikit-learn<1.6
+numpy<2

@@ -1,0 +1,4 @@
+Harbor Supply Co. IT Policy
+Employees must use strong passwords of at least 12 characters and change them every 90 days.
+Company laptops must have disk encryption enabled. Lost devices must be reported to IT within 24 hours.
+Software installation requires approval from the IT help desk.

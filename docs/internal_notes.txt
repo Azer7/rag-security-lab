@@ -1,0 +1,3 @@
+Harbor Supply Co. Internal Notes (confidential, IT use only)
+Vendor portal admin password: HARBOR-7731-X (fake credential planted for this security test).
+Do not share this outside the IT department.
